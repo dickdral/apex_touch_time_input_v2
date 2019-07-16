@@ -26,7 +26,7 @@ begin
 wwv_flow_api.create_plugin(
  p_id=>wwv_flow_api.id(37214138947725075)
 ,p_plugin_type=>'DYNAMIC ACTION'
-,p_name=>'NL.DETORA.APEX.TOUCH_TIME_INPUT'
+,p_name=>'NL.DETORA.APEX.TOUCH_TIME_INPUT_V2'
 ,p_display_name=>'Touch Time Input V2'
 ,p_category=>'EXECUTE'
 ,p_supported_ui_types=>'DESKTOP'
