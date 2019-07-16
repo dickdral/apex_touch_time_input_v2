@@ -2,6 +2,27 @@
  * Product: APEX Touch Time Input Control
  * Copyright 2015: Dick Dral, Detora, The Netherlands
  *
+ * Changes: 
+ * 15-07-2019  Styling of the clock icon added
+ */
+
+/********************************************************************
+ * Styling the clock icon
+ *
+ */
+.a-Button-inline {
+    order: 3;
+    height: 48px;
+    border-radius: 0 2px 2px 0;
+    margin-left:-40px;
+    z-index: 100;
+}
+.a-Button-inline i {
+    margin-top: 8px;
+}
+
+/********************************************************************
+ * Styling the clock control
  */
 #ticPage {
   position : absolute;
